@@ -4,7 +4,6 @@
 }
 
 #Home{
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -28,11 +27,27 @@ body{
     color: gold;
     padding-top: 2%;
     font-weight: bold;
+    font-size: 30px;
 }
 
 .titulo{
     color: white;
+    font-size: 40px;
 }
 .descricao{
     color: white;
+}
+
+@media (max-width: 768px) {
+    .tipo{
+        font-size: 30px;
+    }
+
+   .descricao{
+    margin-right: 30px;
+   }
+}
+
+@media (max-width: 480px) {
+    
 }
