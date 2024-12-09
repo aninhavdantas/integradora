@@ -1,26 +1,21 @@
 .ajustavel{
     width: 80%;
     padding-top: 2%;
+    margin-left: 5%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 #Home{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
     color: #f4f4f4;
     transition: background-color 0.3s;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#Home a.link-home{
-    text-decoration: none;
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-family:'winner sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
@@ -30,7 +25,7 @@ body{
 }
 
 .tipo{
-    color: gold;
+    color: white;
     padding-top: 2%;
     font-weight: bold;
     font-size: 30px;
@@ -42,6 +37,7 @@ body{
 }
 .descricao{
     color: white;
+    text-align: justify;
 }
 
 @media (max-width: 768px) {

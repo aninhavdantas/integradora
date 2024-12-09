@@ -35,7 +35,7 @@ body{
 }
 
 #principal{
-    max-width: 1200px;
+    max-width: 1200px;;
     margin: 0 auto;
 }
 
@@ -144,7 +144,7 @@ p{
 
     p {
         font-size: 1em;
-        text-align: center;
+        text-align: justify;
     }
 
     #cabecalho{
